@@ -6,6 +6,22 @@ An Arduino Uno project that turns an LED on for **2 seconds** when a pushbutton 
 
 The LED stays off at rest. Holding the button does not repeat the timer: release it before pressing again.
 
+## Watch the demonstrations
+
+These silent previews loop automatically. Use the links below each preview to open or download the full MP4 recording with audio.
+
+### Demo 1
+
+![Button and LED demonstration 1](media/IMG_0093-preview.gif)
+
+[Open or download full video 1](https://github.com/KhanhDo1609/Press_button_lights_on/raw/refs/heads/main/media/IMG_0093.mp4)
+
+### Demo 2
+
+![Button and LED demonstration 2](media/IMG_0094-preview.gif)
+
+[Open or download full video 2](https://github.com/KhanhDo1609/Press_button_lights_on/raw/refs/heads/main/media/IMG_0094.mp4)
+
 ## Circuit
 
 ![Arduino Uno button and LED wiring](media/wiring.png)
@@ -63,15 +79,6 @@ The sketch includes a 30 ms debounce delay. It uses `delay()`, so it does not pr
 
 In the sketch, change `delay(2000)` to `delay(3000)` for 3 seconds. The value is in milliseconds.
 
-## Videos
-
-Demonstration recordings in MP4 format:
-
-- [Video 1 — IMG_0093.mp4](media/IMG_0093.mp4)
-- [Video 2 — IMG_0094.mp4](media/IMG_0094.mp4)
-
-If GitHub does not play an MP4 file inline, download it to watch it.
-
 ## File catalog
 
 ```text
@@ -81,6 +88,8 @@ If GitHub does not play an MP4 file inline, download it to watch it.
 │   └── Press_button_light_on.ino
 └── media/
     ├── wiring.png
+    ├── IMG_0093-preview.gif
+    ├── IMG_0094-preview.gif
     ├── IMG_0093.mp4
     └── IMG_0094.mp4
 ```
