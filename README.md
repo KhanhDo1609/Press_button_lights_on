@@ -1,5 +1,7 @@
 # Press Button Lights On
 
+**[View Arduino code](Press_button_light_on/Press_button_light_on.ino)** · [Video 1](media/IMG_0093.mp4) · [Video 2](media/IMG_0094.mp4)
+
 An Arduino Uno project that turns an LED on for **2 seconds** when a pushbutton is pressed, then switches it off automatically.
 
 The LED stays off at rest. Holding the button does not repeat the timer: release it before pressing again.
@@ -63,12 +65,12 @@ In the sketch, change `delay(2000)` to `delay(3000)` for 3 seconds. The value is
 
 ## Videos
 
-Original demonstration recordings:
+Demonstration recordings in MP4 format:
 
-- [Video 1 — IMG_0093.MOV](media/IMG_0093.MOV)
-- [Video 2 — IMG_0094.MOV](media/IMG_0094.MOV)
+- [Video 1 — IMG_0093.mp4](media/IMG_0093.mp4)
+- [Video 2 — IMG_0094.mp4](media/IMG_0094.mp4)
 
-If GitHub does not play a MOV file inline, download it to watch it.
+If GitHub does not play an MP4 file inline, download it to watch it.
 
 ## File catalog
 
@@ -79,8 +81,8 @@ If GitHub does not play a MOV file inline, download it to watch it.
 │   └── Press_button_light_on.ino
 └── media/
     ├── wiring.png
-    ├── IMG_0093.MOV
-    └── IMG_0094.MOV
+    ├── IMG_0093.mp4
+    └── IMG_0094.mp4
 ```
 
 The Arduino sketch and original media are included as supplied.
